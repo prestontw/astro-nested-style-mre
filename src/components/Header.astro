@@ -1,11 +1,12 @@
 ---
 import astroLogo from '../assets/astro.svg';
 import background from '../assets/background.svg';
-import LocalLink from "./LocalLink.astro";
+import HeaderLink from "./HeaderLink.astro";
 ---
 
-<nav>
-	<LocalLink href="https://google.com">google</LocalLink>
+<nav class="flex"">
+	<HeaderLink href="https://google.com">google</LocalLink>
+	<HeaderLink href="https://yahoo.com">yahoo</LocalLink>
 	<a href="https://github.com">github.com</a>
 </nav>
 
